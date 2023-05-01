@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.container{
+    border: 2px solid #000;
+    background-color: blue;
+    display: flex;
+    /* display: inline-flex; */
+    flex-direction: row; /* 기본값 */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /*  flex-direction: column-reverse;*/
+
+    /* 줄넘김처리 */
+}
+.container .item{border: 2px solid #000;
+background-color: paleturquoise;}
